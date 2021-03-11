@@ -8,8 +8,10 @@ JavaのConcurrentHashMapの動作確認
 ## 実行
 
 ``` sh
-mvn clean compile exec:java -Dexec.mainClass="sample.map.App"
+mvn clean compile exec:java -Dexec.mainClass="sample.map.App" -Dexec.args="'スレッド数' 'ループ数'"
 ```
+
+mvn clean compile exec:java -Dexec.mainClass="sample.map.App" -Dexec.args="'100' '10'"
 
 ## 参考
 
