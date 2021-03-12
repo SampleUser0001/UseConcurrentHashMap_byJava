@@ -11,6 +11,7 @@ JavaのConcurrentHashMapの動作確認
 下記の表のインスタンスに対して、表に記載したメソッドで登録する。
 
 | 登録対象インスタンス | 登録メソッド | 出力ワード |
+| :-- | :-- | :-- |
 | HashMap | put | NORMAL |
 | ConcurrentHashMap | put | CONCURRENT_NOT_ATOMIC |
 | ConcurrentHashMap | putIfAbsent | CONCURRENT_ATOMIC |
